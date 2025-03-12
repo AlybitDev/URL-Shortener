@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  urlalybitdev:
+    build: .
+    ports:
+      - "4650:4650"
+    container_name: urlalybitdev
+    restart: always
+networks:
+  default:
+    external: true
+    name: proxy
