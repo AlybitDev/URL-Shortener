@@ -4,9 +4,5 @@ services:
     build: .
     ports:
       - "4650:4650"
-    container_name: urlalybitdev
+    container_name: urlshortener
     restart: always
-networks:
-  default:
-    external: true
-    name: proxy
