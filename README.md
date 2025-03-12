@@ -11,13 +11,12 @@ This is the method how you can manually run the program.
 ```
 gh repo clone AlybitDev/URL-Shortener
 ```
-3. Go into the repository and install the needed Python libraries.
+2. Go into the repository and install the needed Python libraries.
 ```
 cd URL-Shortener
 pip install -r requirements.txt
 ```
-3. Change example.com in templates/urlshortened.html to your own Domain or IP.<br>
-In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
+3. Change example.com in templates/urlshortened.html to your own Domain or IP. In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
 4. Run the FastAPI Run command.
 ```
 fastapi run main.py --host 0.0.0.0 --port 4650
@@ -31,16 +30,16 @@ This is the method how you can run URL-Shortener in a Docker Container with the 
 ```
 gh repo clone AlybitDev/URL-Shortener
 ```
-3. Go into the repository and change example.com in templates/urlshortened.html to your own Domain or IP.<br>
+2. Go into the repository and change example.com in templates/urlshortened.html to your own Domain or IP.<br>
 ```
 cd URL-Shortened
 ```
 In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
-5. Build the Docker Image and Run the Docker Container with the Docker Run command.
+3. Build the Docker Image and Run the Docker Container with the Docker Run command.
 ```
 docker build -t URL-Shortener . && sudo docker run -d --name URL-Shortener -p 4650:4650 --restart always URL-Shortener
 ```
-6. Now you can access the WebUI on port 4650.
+4. Now you can access the WebUI on port 4650.
 
 ### Method 3: With Docker Compose.
 This is the method how you can run URL-Shortener in a Docker Container with the Docker-Compose command.
