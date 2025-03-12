@@ -52,8 +52,8 @@ gh repo clone AlybitDev/URL-Shortener
 ```
 cd URL-Shortened
 ```
-In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).<br>
-3. Run the Docker Container with the Docker-Compose command.
+In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
+<br>3. Run the Docker Container with the Docker-Compose command.
 ```
 docker-compose up -d
 ```
