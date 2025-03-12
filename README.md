@@ -2,7 +2,7 @@
 An URL Shortener made with Python and FastAPI. It uses sqlite3 as it's database.
 
 ## Installation
-You can choose between two methods.
+You can choose between 3 methods.
 
 ### Method 1: With the FastAPI Run command.
 This is the method how you can manually run the program.
