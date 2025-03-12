@@ -28,7 +28,7 @@ This is the method how you can run URL-Shortener in a Docker Container with the 
 2. Go into the repository, build the Docker Image and Run the Docker Container with the Docker Run command.
 ```
 cd URL-Shortener
-docker build -t urlalybitdev . && sudo docker run -d --name URL_Shortener -p 4650:4650 --restart always urlalybitdev
+docker build -t URL-Shortener . && sudo docker run -d --name URL-Shortener -p 4650:4650 --restart always URL-Shortener
 ```
 3. Now you can access the WebUI on port 4650.
 
