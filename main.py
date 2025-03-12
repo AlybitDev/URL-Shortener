@@ -51,7 +51,3 @@ async def return_site(hashbase62: str):
     if url_to_redirect:
         return RedirectResponse(url_to_redirect[0])
     return FileResponse("templates/error.html")
-
-@app.get("/google")
-async def redirect_to_google():
-    return RedirectResponse("https://google.com")
