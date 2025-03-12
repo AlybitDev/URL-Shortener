@@ -30,11 +30,10 @@ This is the method how you can run URL-Shortener in a Docker Container with the 
 ```
 gh repo clone AlybitDev/URL-Shortener
 ```
-2. Go into the repository and change example.com in templates/urlshortened.html to your own Domain or IP.<br>
+2. Go into the repository and change example.com in templates/urlshortened.html to your own Domain or IP. In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
 ```
 cd URL-Shortened
 ```
-In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
 3. Build the Docker Image and Run the Docker Container with the Docker Run command.
 ```
 docker build -t URL-Shortener . && sudo docker run -d --name URL-Shortener -p 4650:4650 --restart always URL-Shortener
@@ -48,11 +47,10 @@ This is the method how you can run URL-Shortener in a Docker Container with the 
 ```
 gh repo clone AlybitDev/URL-Shortener
 ```
-2. Change example.com in templates/urlshortened.html to your own Domain or IP.<br>
+2. Change example.com in templates/urlshortened.html to your own Domain or IP. In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
 ```
 cd URL-Shortened
 ```
-In this [file](https://github.com/AlybitDev/URL-Shortener/blob/main/templates/urlshortened.html).
 
 3. Run the Docker Container with the Docker-Compose command.
 ```
