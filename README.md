@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 fastapi run main.py --host 0.0.0.0 --port 4650
 ```
-5. Access the WebUI on port 4650.
+5. Now you can access the WebUI on port 4650.
 
 ### Method 2: With Docker.
 This is the method how you can run URL-Shortener in a Docker Container with the Docker Run command.
