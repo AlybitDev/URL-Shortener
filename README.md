@@ -2,7 +2,7 @@
 An URL Shortener made with Python and FastAPI. It uses sqlite3 as it's database.
 Demo: https://url.alybit.dev/
 
-## Installation
+## Installation🚀
 You can choose between 3 methods.
 
 ### Method 1: With the FastAPI Run command.
